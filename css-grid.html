@@ -47,10 +47,10 @@
         grid-template-rows: 1fr 1fr;
 
         column-gap: 20px;
-        row-gap: 40px;
+        row-gap: 20px;
 
         /* Temp */
-        display: none;
+        /* display: none; */
       }
 
       .el--8 {
@@ -60,8 +60,8 @@
       }
 
       .el--2 {
-        grid-column: 1;
-        grid-row: 2;
+        grid-column: 3;
+        grid-row: 1;
       }
 
       .el--6 {
@@ -92,11 +92,12 @@
         /* Aligning the items INSIDE cell: moving items around inside the cells */
         align-items: end;
         justify-items: end;
+        display: none;
       }
 
       .el--3 {
         align-self: center;
-        justify-self: center;
+        justify-self: stretch;
       }
     </style>
   </head>
